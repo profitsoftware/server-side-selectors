@@ -1,4 +1,4 @@
-Sever Side Selectors
+Server Side Selectors
 =====================
 
 CSS style selectors for Vaadin on server side. Like "jQuery" for Vaadin.
