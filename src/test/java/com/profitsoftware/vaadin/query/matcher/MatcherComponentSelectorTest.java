@@ -206,7 +206,7 @@ public class MatcherComponentSelectorTest {
     Assert.assertFalse(i.hasNext());
 
 
-    i = parser.selector("button").from(ui).iterator();
+    i = parser.query("button").from(ui).iterator();
     Assert.assertSame(button1, i.next());
     Assert.assertSame(button2, i.next());
     Assert.assertSame(button3, i.next());

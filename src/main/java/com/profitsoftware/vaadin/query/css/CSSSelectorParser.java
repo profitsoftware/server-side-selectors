@@ -47,7 +47,7 @@ public class CSSSelectorParser {
     return factory.or(matchers.toArray(new Matcher[matchers.size()]));
   }
 
-  public ComponentQuery selector(String s) {
+  public ComponentQuery query(String s) {
     return createSelector(matcher(s));
   }
 

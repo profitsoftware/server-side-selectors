@@ -29,4 +29,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<scm>
+		<connection>scm:git:git@github.com:profitsoftware/server-side-selectors.git</connection>
+	</scm>
 </project>
